@@ -1,7 +1,8 @@
 /*There is going to be a seperate CSS page for each page to keep it clean */ 
 
 
-head {
+h1 {
 	font-family:Helvetica;
+	color: red;
 }
 
