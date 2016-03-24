@@ -1,6 +1,28 @@
 /* This is going to be the CSS for the menu page */
 
-h1 {
-	
-	color: red;
+body {
+	background-color: ivory;
+	border: solid;
+	border-width: 1; 
+	text-align: center;
+}
+
+h2 {
+	color: maroon;
+	font-family: "Geneva";
+}
+
+h3 {
+	color: royalblue;
+	font-family: "Geneva";
+}
+
+p {
+	color: navy;
+	font-family: "Geneva";
+	font-size: 15px;
+}
+
+p.describe {
+	font-style: italic;
 }
