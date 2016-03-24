@@ -8,3 +8,8 @@ h1 {
 .navbar-header {
 	background: transparent;
 }
+
+#map {
+	width: 500px;
+	height: 400px;
+}

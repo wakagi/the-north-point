@@ -40,6 +40,29 @@ Contact Us
 
 <h1> Contact Us </h1>
 
+<p> 
+Telephone: 01334 473997
+</p>
+
+<h3>Address:</h3>
+
+<p>
+24 North Street, St Andrews, Fife KY16 9AQ
+</p>
+
+<div id="map"> </div>
+	<script>
+		function initMap() {
+			var mapDiv= document.getElementById('map');
+			var map= new google.maps.Map(mapDiv, {
+				center: {lat: 56.34082, lng: -2.79102},
+				zoom: 8
+			}); 
+		}
+	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" 
+		async defer></script>
+
 </body>
 
 </html>
