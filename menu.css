@@ -26,3 +26,7 @@ p {
 p.describe {
 	font-style: italic;
 }
+
+.navbar-header {
+	background: transparent;
+}
