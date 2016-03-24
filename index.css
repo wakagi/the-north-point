@@ -1,8 +1,32 @@
 /*There is going to be a seperate CSS page for each page to keep it clean */ 
-
-
-h1 {
-	font-family:Helvetica;
-	color: red;
+html{
+	font-family: sans-serif;
 }
 
+
+
+#home {
+	background; #251f21
+}
+
+.main.image {
+	background-image: url('pic/12.jpg');
+	background-size: cover;
+	background-attachment:fixed;
+}
+
+#text{
+
+	postion:absolute;
+	color:white;
+	left:150px;
+	top: 350px;
+}
+
+.constainer{
+	overflow: hidden;
+}
+
+.navbar-head {
+	background: transparent;
+}
