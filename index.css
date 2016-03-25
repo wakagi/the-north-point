@@ -9,7 +9,7 @@ html{
 	background; #251f21
 }
 
-.main.image {
+.main-image {
 	background-image: url('pic/12.jpg');
 	background-size: cover;
 	background-attachment:fixed;
