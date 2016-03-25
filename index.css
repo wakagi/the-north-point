@@ -17,13 +17,13 @@ html{
 
 #text{
 
-	postion:absolute;
+	position:absolute;
 	color:white;
 	left:150px;
 	top: 350px;
 }
 
-.constainer{
+.container{
 	overflow: hidden;
 }
 
