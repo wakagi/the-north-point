@@ -1,5 +1,7 @@
 /*CSS for Contact Us page */
-#text {text-align: center;
+div#text {text-align: center;
+			display:block;
+			padding:60px;
 }
 
 div#map {display:block;

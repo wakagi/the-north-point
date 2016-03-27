@@ -11,8 +11,9 @@ html{
 
 .main-image {
 	background-image: url('pic/12.jpg');
-	background-size: cover;
+	background-size:cover;
 	background-attachment:fixed;
+	padding-top: 45px;
 }
 
 #text{

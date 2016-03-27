@@ -1,4 +1,8 @@
 /* This is going to be the CSS for the menu page */
+.navbar-header {
+	background: transparent;
+}
+
 #text {
 	background-color: ivory;
 	border: solid;
@@ -26,6 +30,3 @@ p.describe {
 	font-style: italic;
 }
 
-.navbar-header {
-	background: transparent;
-}
