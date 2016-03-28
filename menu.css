@@ -3,12 +3,17 @@
 	background: transparent;
 }
 
-#text {
-	background-color: ivory;
-	border: solid;
-	border-width: 1; 
-	text-align: center;
+.main-image {
+	padding-top: 45px;
 }
+
+div#text{
+	border: solid;
+	border-width: 1;
+	text-align: center;
+	padding-top: 45px;
+}
+
 
 h2 {
 	color: maroon;
