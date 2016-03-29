@@ -10,7 +10,7 @@ html{
 }
 
 .main-image {
-	background-image: url('pic/12.jpg');
+	background-image: url('secondphotos/DSC_9445.jpg') center center no-repeat;
 	background-size:cover;
 	background-attachment:fixed;
 	padding-top: 45px;
