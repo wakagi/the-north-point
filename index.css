@@ -9,24 +9,25 @@ html{
 	background; #251f21
 }
 
-.main.image {
+.main-image {
 	background-image: url('pic/12.jpg');
-	background-size: cover;
+	background-size:cover;
 	background-attachment:fixed;
+	padding-top: 45px;
 }
 
 #text{
 
-	postion:absolute;
+	position:absolute;
 	color:white;
 	left:150px;
 	top: 350px;
 }
 
-.constainer{
+.container{
 	overflow: hidden;
 }
 
-.navbar-head {
+.navbar-header {
 	background: transparent;
 }

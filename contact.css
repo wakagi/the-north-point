@@ -1,6 +1,29 @@
 /*CSS for Contact Us page */
+div#text {text-align: center;
+			display:block;
+			padding:60px;
+}
+
+.main-image {
+	padding-top: 45px;
+}
+
+div#map {display:block;
+	     border: solid;
+	     border-width: 1; 
+		 margin: 50px auto 0 auto;
+}	
 
 h1 {
 	font-family: Helvetica;
 	color: red;
+}
+
+.navbar-header {
+	background: transparent;
+}
+
+#map {
+	width: 500px;
+	height: 400px;
 }
