@@ -28,6 +28,10 @@ html{
 	overflow: hidden;
 }
 
-.navbar-header {
-	background: transparent;
+	position: absolute;
+}
+
+#cover-text {
+  color:red;
+  
 }
