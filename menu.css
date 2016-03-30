@@ -27,12 +27,12 @@ div#text{
 
 h2 {
 	color: #eb4a59;
-	font-family: "Slim Joe";
+	font-family: "big john";
 }
 
 h3 {
 	color: #eb4a59;
-	font-family: "Slim Joe";
+	font-family: "big john";
 }
 
 p {
@@ -41,9 +41,6 @@ p {
 	font-size: 15px;
 }
 
-p.describe {
-	font-style: italic;
-}
 
 #wrapper {
   padding-left: 250px;
