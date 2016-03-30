@@ -91,7 +91,7 @@ p.describe {
 }
 
 .sidebar-nav li a {
-  color: #0128c5;
+  color: #eb4a59;
   display: block;
   text-decoration: none;
   padding-left: 60px;
@@ -100,7 +100,7 @@ p.describe {
 .sidebar-nav li a span:before {
   position: absolute;
   left: 0;
-  color: #41484c;
+  color: #0128c5;
   text-align: center;
   width: 20px;
   line-height: 18px;
