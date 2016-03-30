@@ -27,12 +27,12 @@ div#text{
 
 h3 {
 	color: #eb4a59;
-	font-family: "Slim Joe";
+	font-family: "slim-joe";
 }
 
 p {
 	color: #0128c5;
-	font-family: "Slim Joe";
+	font-family: "slim-joe";
 	font-size: 17px;
 }
 
@@ -137,7 +137,7 @@ p {
   margin-left: 20px;
   line-height: 65px;
   display: inline-block;
-  font-family: "BIG JOHN";
+  font-family: "big-john";
   color: #0128c5;
 }
 
