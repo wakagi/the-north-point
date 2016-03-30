@@ -39,8 +39,13 @@ p {
 	color: #0128c5;
 	font-family: "Slim Joe";
 	font-size: 15px;
+  font
 }
 
+
+p.describe {
+  font-style: bold;
+}
 
 #wrapper {
   padding-left: 250px;
