@@ -2,10 +2,19 @@
 div#text {text-align: center;
 			display:block;
 			padding:60px;
+			font-family:"Slim Joe";
 }
 
 .main-image {
 	padding-top: 45px;
+}	
+
+p.WELCOME {
+	font-family: "BIG JOHN.otf";
+	font-size: 270px;
+	color: #fff;
+	background:#2e272d;
+	position:absolute;
 }
 
 div#map {display:block;
@@ -13,11 +22,6 @@ div#map {display:block;
 	     border-width: 1; 
 		 margin: 50px auto 0 auto;
 }	
-
-h1 {
-	font-family: Helvetica;
-	color: red;
-}
 
 .navbar-header {
 	background: transparent;
