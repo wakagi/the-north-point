@@ -38,14 +38,10 @@ h3 {
 p {
 	color: #0128c5;
 	font-family: "Slim Joe";
-	font-size: 15px;
-  font
-}
-
-
-p.describe {
+	font-size: 20px;
   font-weight: bold;
 }
+
 
 #wrapper {
   padding-left: 250px;
