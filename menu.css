@@ -27,12 +27,12 @@ div#text{
 
 h2 {
 	color: #eb4a59;
-	font-family: "big john";
+	font-family: "BIG JOHN";
 }
 
 h3 {
 	color: #eb4a59;
-	font-family: "big john";
+	font-family: "BIG JOHN";
 }
 
 p {
@@ -42,7 +42,7 @@ p {
 }
 
 p.describe {
-  font-weight: bold;
+  font-weight:bolder;
 }
 
 #wrapper {
@@ -145,7 +145,7 @@ p.describe {
   margin-left: 20px;
   line-height: 65px;
   display: inline-block;
-  font-style: "BIG JOHN";
+  font-family: "BIG JOHN";
   color: #0128c5;
 }
 
