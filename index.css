@@ -1,4 +1,15 @@
 /*There is going to be a seperate CSS page for each page to keep it clean */ 
+@font-face {
+	font-family:'slim-joe';
+	src: url('dist/fonts/slim-joe.otf');
+}
+
+@font-face {
+	font-family:'big-john';
+	src: url('dist/fonts/big-john.otf');
+}
+
+
 html{
 	font-family: sans-serif;
 }

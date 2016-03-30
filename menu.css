@@ -1,4 +1,14 @@
 /* This is going to be the CSS for the menu page */
+@font-face {
+  font-family:'slim-joe';
+  src: url('dist/fonts/slim-joe.otf');
+}
+
+@font-face {
+  font-family:'big-john';
+  src: url('dist/fonts/big-john.otf');
+}
+
 .navbar-header {
 	background: transparent;
 }
