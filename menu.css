@@ -1,4 +1,14 @@
 /* This is going to be the CSS for the menu page */
+@font-face {
+  font-family:'slim-joe';
+  src: url('dist/fonts/slim-joe.otf');
+}
+
+@font-face {
+  font-family:'big-john';
+  src: url('dist/fonts/big-john.otf');
+}
+
 .navbar-header {
 	background: transparent;
 }
@@ -25,25 +35,17 @@ div#text{
 }
 
 
-h2 {
-	color: maroon;
-	font-family: "Geneva";
-}
-
 h3 {
-	color: royalblue;
-	font-family: "Geneva";
+	color: #eb4a59;
+	font-family: "slim-joe";
 }
 
 p {
-	color: navy;
-	font-family: "Geneva";
-	font-size: 15px;
+	color: #0128c5;
+	font-family: "slim-joe";
+	font-size: 17px;
 }
 
-p.describe {
-	font-style: italic;
-}
 
 #wrapper {
   padding-left: 250px;
@@ -91,16 +93,16 @@ p.describe {
 }
 
 .sidebar-nav li a {
-  color: #999999;
+  color: #eb4a59;
   display: block;
-  text-decoration: none;
+  text-decoration: underline;
   padding-left: 60px;
 }
 
 .sidebar-nav li a span:before {
   position: absolute;
   left: 0;
-  color: #41484c;
+  color: #0128c5;
   text-align: center;
   width: 20px;
   line-height: 18px;
@@ -108,14 +110,14 @@ p.describe {
 
 .sidebar-nav li a:hover,
 .sidebar-nav li.active {
-  color: #fff;
-  background: rgba(255,255,255,0.2);
-  text-decoration: none;
+  color: #eb4a59;
+  background: rgb(217, 216, 216);
+  text-decoration: underline;
 }
 
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .sidebar-nav > .sidebar-brand {
@@ -125,11 +127,11 @@ p.describe {
 }
 
 .sidebar-nav > .sidebar-brand a {
-  color: #999999;
+  color: #0128c5;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-  color: #fff;
+  color: #0128c5;
   background: none;
 }
 
@@ -145,6 +147,8 @@ p.describe {
   margin-left: 20px;
   line-height: 65px;
   display: inline-block;
+  font-family: "big-john";
+  color: #0128c5;
 }
 
 #menu-toggle {
@@ -152,7 +156,7 @@ p.describe {
 }
 
 .btn-menu {
-  color: #000;
+  color: #0128c5;
 } 
 
 .inset {

@@ -7,10 +7,45 @@
 	<title> Contact Us </title>
 	<link href="contact.css" rel="stylesheet" type="text/css" />
 	<link href="dist/css/bootstrap.css" rel="stylesheet" />
+	<!--<link href="dist/fonts/big-john.otf">
+	<link href="dist/fonts/slim-joe.otf">-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	
+	<script>
+		$(document).ready(function() {
+		$.ajaxSetup ({cache: true});
+		$.getScript('//connect.facebook.net/en_GB/sdk.js', function (){
+			FB.init({
+				appId: '{What type of place you should live in?}',
+				version: 'v2.5' // or v2.0, v2.1, v2.2, v2.3
+			});
+			$('#loginbutton,#feedbutton').removeAttr('disabled');
+			FB.getLoginStatus(updateStatusCallback);
+		});
+		});
+	</script>  <!--This script may or may not be unnecessary-->
 </head>
 
 <body>
+
+<div id="fb-root"></div>
+<script>
+	window.fbAsyncInit = function() {
+		FB.init({
+			appId	: 'What type of place you should live in?',
+			xfbml	: true,
+			version	: 'v2.5'
+		});
+	};
+
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=159964792450";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 
 <div id="main-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
 		<div class="navbar-header">
@@ -40,19 +75,20 @@
 
 <div class="main-image">
 	<img src="secondphotos/DSC_9445.jpg" class="img-responsive" alt="Responsive image">
-	<div class="sol-sm-6">
-</div>
+	<div class="layer">
+   </div>
+</div> 
 
 <div id="text">
-<h1> Contact Us </h1>
+<h1 class="h1"> Contact Us </h1>
 
-<p> 
+<p class="p"> 
 Telephone: 01334 473997
 </p>
 
-<h3>Address:</h3>
+<h2 class="h2">Address:</h3>
 
-<p>
+<p class="p">
 24 North Street, St Andrews, Fife KY16 9AQ
 </p>
 
@@ -90,6 +126,14 @@ Telephone: 01334 473997
 	<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" 
 		async defer></script>
 
+<p class="p">
+	Remember to like us on facebook!
+</p>
+
+</div>
+
+<div id="fb">
+<div class="fb-like" data-href="https://www.facebook.com/northpointcafe/?fref=ts" data-width="400" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 </div>
 
 </body>

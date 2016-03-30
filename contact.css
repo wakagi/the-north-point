@@ -1,22 +1,54 @@
 /*CSS for Contact Us page */
+@font-face {
+	font-family:'slim-joe';
+	src: url('dist/fonts/slim-joe.otf');
+}
+
+@font-face {
+	font-family:'big-john';
+	src: url('dist/fonts/big-john.otf');
+}
+
 div#text {text-align: center;
 			display:block;
 			padding:60px;
+			font-family:"slim-joe";
+}
+
+.h1{
+	color:#0128c5;
+}
+
+.h2 {
+	color:#eb4a59;
+}
+
+.p {
+	font-size:20px;
 }
 
 .main-image {
 	padding-top: 45px;
-}
-
-div#map {display:block;
-	     border: solid;
-	     border-width: 1; 
-		 margin: 50px auto 0 auto;
 }	
 
-h1 {
-	font-family: Helvetica;
-	color: red;
+div#map {
+		display:block;
+	     border: solid;
+	     border-width: 1; 
+		 margin: 50px auto 50px auto;
+}	
+
+.fb{
+		display:block;
+	     border: solid;
+	     border-width: 1; 
+	     position: relative;
+	     margin: 0 auto 20px auto;
+
+}
+
+.fb-like{
+	position:absolute;
 }
 
 .navbar-header {
