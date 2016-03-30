@@ -43,8 +43,12 @@ div#fb {
 	     border: solid;
 	     border-width: 1; 
 	     position: center;
-	     padding: 5px;
+	     margin: 0 auto 20px auto;
 
+}
+
+.fb-like{
+	position:center;
 }
 
 .navbar-header {
