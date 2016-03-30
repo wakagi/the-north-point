@@ -26,17 +26,17 @@ div#text{
 
 
 h2 {
-	color: maroon;
-	font-family: "Big John";
+	color: #eb4a59;
+	font-family: "BIG JOHN";
 }
 
 h3 {
 	color: royalblue;
-	font-family: "Big John";
+	font-family: "BIG JOHN";
 }
 
 p {
-	color: navy;
+	color: #0128c5;
 	font-family: "Slim Joe";
 	font-size: 15px;
 }
@@ -125,7 +125,7 @@ p.describe {
 }
 
 .sidebar-nav > .sidebar-brand a {
-  color: #999999;
+  color: #0128c5;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
@@ -145,6 +145,7 @@ p.describe {
   margin-left: 20px;
   line-height: 65px;
   display: inline-block;
+  font-style: "BIG JOHN";
 }
 
 #menu-toggle {
@@ -152,7 +153,7 @@ p.describe {
 }
 
 .btn-menu {
-  color: #000;
+  color: #0128c5;
 } 
 
 .inset {
