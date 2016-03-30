@@ -10,9 +10,33 @@
 	<!--<link href="dist/fonts/big-john.otf">
 	<link href="dist/fonts/slim-joe.otf">-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	
+	<script>
+		$(document).ready(function() {
+		$.ajaxSetup ({cache: true});
+		$.getScript('//connect.facebook.net/en_GB/sdk.js', function (){
+			FB.init({
+				appId: '{What type of place you should live in?}',
+				version: 'v2.5' // or v2.0, v2.1, v2.2, v2.3
+			});
+			$('#loginbutton,#feedbutton').removeAttr('disabled');
+			FB.getLoginStatus(updateStatusCallback);
+		});
+		});
+	</script>
 </head>
 
 <body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=159964792450";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 
 <div id="main-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
 		<div class="navbar-header">
@@ -94,6 +118,8 @@ Telephone: 01334 473997
 		async defer></script>
 
 </div>
+
+<div class="fb-like" data-href="https://www.facebook.com/northpointcafe/?fref=ts" data-width="400" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 
 </body>
 
