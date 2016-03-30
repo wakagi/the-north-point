@@ -25,14 +25,9 @@ div#text{
 }
 
 
-h2 {
-	color: #eb4a59;
-	font-family: "BIG JOHN";
-}
-
 h3 {
 	color: #eb4a59;
-	font-family: "BIG JOHN";
+	font-family: "Slim Joe";
 }
 
 p {
@@ -41,9 +36,6 @@ p {
 	font-size: 17px;
 }
 
-p.describe {
-  font-weight: bolder;
-}
 
 #wrapper {
   padding-left: 250px;
@@ -93,7 +85,7 @@ p.describe {
 .sidebar-nav li a {
   color: #eb4a59;
   display: block;
-  text-decoration: none;
+  text-decoration: underline;
   padding-left: 60px;
 }
 
@@ -110,12 +102,12 @@ p.describe {
 .sidebar-nav li.active {
   color: #eb4a59;
   background: rgb(217, 216, 216);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .sidebar-nav > .sidebar-brand {
