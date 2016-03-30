@@ -5,6 +5,18 @@ div#text {text-align: center;
 			font-family:"Slim Joe";
 }
 
+.h1{
+	color:#0128c5;
+}
+
+.h2 {
+	color:#eb4a59;
+}
+
+.p {
+	font-size:20px;
+}
+
 .main-image {
 	padding-top: 45px;
 }	
