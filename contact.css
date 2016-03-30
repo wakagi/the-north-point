@@ -38,17 +38,17 @@ div#map {
 		 margin: 50px auto 50px auto;
 }	
 
-div#fb {
+.fb{
 		display:block;
 	     border: solid;
 	     border-width: 1; 
-	     position: center;
+	     position: relative;
 	     margin: 0 auto 20px auto;
 
 }
 
 .fb-like{
-	position:center;
+	position:absolute;
 }
 
 .navbar-header {
