@@ -21,13 +21,17 @@ div#text {text-align: center;
 	padding-top: 45px;
 }	
 
-p.WELCOME {
+.layer {
+	background-color:#2e272d;
+	position:absolute;
+}
+/*p.WELCOME {
 	font-family: "BIG JOHN.otf";
 	font-size: 270px;
 	color: #fff;
 	background:#2e272d;
 	position:absolute;
-}
+}*/
 
 div#map {display:block;
 	     border: solid;
