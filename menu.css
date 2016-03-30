@@ -42,7 +42,7 @@ p {
 }
 
 p.describe {
-  font-weight:bolder;
+  font-weight: bolder;
 }
 
 #wrapper {
@@ -108,8 +108,8 @@ p.describe {
 
 .sidebar-nav li a:hover,
 .sidebar-nav li.active {
-  color: #fff;
-  background: rgba(255,255,255,0.2);
+  color: #eb4a59;
+  background: rgb(217, 216, 216);
   text-decoration: none;
 }
 
