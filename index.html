@@ -10,6 +10,8 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 	<script src="dist/js/bootstrap.min.js"></script>
 	<!--  Also might need to add jquery mobile and fonts here-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -20,20 +22,20 @@
   ga('create', 'UA-74479607-1', 'auto');
   ga('send', 'pageview');
 </script>
-<script type="text/javascript"> 
-$(document).ready(function() {
-	$(".dropdown-toggle").dropdown();
-}); </script>
-<div class="dropdown">
-			<a href="#page-top" class="dropdown-toggle" data-toggle="dropdown"> Dropdown <b class ="caret"></b></a>
-				<ul class="dropdown-menu">
-					<li><a href="contact.html"> About </a></li>
-					<li><a href="menu.html"> Menu </a></li>
-				</ul>
 
 </head>
 
 <body>
+	<div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+			
+				<li><a href="about.html"> About </a></li>
+				<li class="divider"></li>
+				<li><a href="menu.html"> Menu </a></li>
+			</ul>
+	</div>
 <!--The main photos -->
 <div class="main-image">
 	<img src="secondphotos/DSC_9445.jpg" class="img-responsive" alt="Responsive image">
