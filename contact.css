@@ -38,21 +38,16 @@ div#map {
 		 margin: 50px auto 50px auto;
 }	
 
-#fb{
-		 width:500px; 
-		 display:block;
-	     border: solid;
+
+.fb-like{
+	width:400px;
+	display:block;
+	 	 border: solid;
 	     border-width: 1; 
 	     position: relative;
 	     left:80px;
 	     right:80px;
 	     margin: 0 auto 20px auto;
-
-}
-
-.fb-like{
-	position:absolute;
-	width:400px;
 	padding:20px;
 }
 
