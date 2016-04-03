@@ -18,8 +18,8 @@
 }
 
 div#text{
-	border: solid;
-	border-width: 1;
+	/*border: solid;
+	border-width: 1;*/
 	text-align: center;
 	padding-top: 45px;
 
@@ -28,10 +28,10 @@ div#text{
   background: -webkit-linear-gradient(bottom, rgba(255,255,240,1), rgba(248,248,247,1));
   background: -moz-linear-gradient(bottom, rgba(255,255,240,1), rgba(248,248,247,1)));*/
 
-	background-color: #fffaf8;
+	/*background-color: #fffaf8;
     background: linear-gradient(bottom, rgba(255,221,209,209), rgba(255,250,248,209));
     background: -webkit-linear-gradient(bottom, rgba(255,221,209,209), rgba(255,250,248,209));
-    background: -moz-linear-gradient(bottom, rgba(255,221,209,209), rgba(255,250,248,209));
+    background: -moz-linear-gradient(bottom, rgba(255,221,209,209), rgba(255,250,248,209));*/
 }
 
 
