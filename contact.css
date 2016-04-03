@@ -39,6 +39,7 @@ div#map {
 }	
 
 #fb{
+		 width:500px; 
 		 display:block;
 	     border: solid;
 	     border-width: 1; 
