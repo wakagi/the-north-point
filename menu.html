@@ -4,6 +4,7 @@
 	<title> Menu </title>
 	<link href="menu.css" rel="stylesheet" type="text/css"/>
 	<link href="dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="menu.js" type="text/javascript"/>
     <!--<link href="dist/fonts/big-john.otf">
     <link href="dist/fonts/slim-joe.otf">-->
     <script src="dist/js/bootstrap.min.js"></script>
@@ -11,34 +12,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 
-<!--Script to activate the button-->
 
-    <script> 
-  
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("active");
-    });
-
-  
-    $('body').scrollspy({ target: '#spy', offset:80});
-
-    
-    $('a[href*=#]:not([href=#])').click(function() {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            if (target.length) {
-                $('html,body').animate({
-                    scrollTop: target.offset().top
-                }, 1000);
-                return false;
-            }
-        }
-    });
-
-    </script>
 
 </head>
 
@@ -70,33 +44,7 @@
 		</nav>
 	</div>
 
-<!-- This part is an experiment. Trying to make the button work-->
-     <script> 
-  
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("active");
-    });
 
-  
-    $('body').scrollspy({ target: '#spy', offset:80});
-
-    
-    $('a[href*=#]:not([href=#])').click(function() {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            if (target.length) {
-                $('html,body').animate({
-                    scrollTop: target.offset().top
-                }, 1000);
-                return false;
-            }
-        }
-    });
-
-    </script>
 
 <div id="text">
 
