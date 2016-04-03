@@ -39,7 +39,7 @@ div#map {
 }	
 
 #fb{
-		display:block;
+		 display:block;
 	     border: solid;
 	     border-width: 1; 
 	     position: relative;
@@ -49,6 +49,8 @@ div#map {
 
 .fb-like{
 	position:absolute;
+	width:400px;
+	padding:20px;
 }
 
 .navbar-header {
