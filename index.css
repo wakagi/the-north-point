@@ -44,3 +44,11 @@ html{
   color:red;
   
 }
+
+.img{  
+         display:block;
+	     border: solid;
+	     border-width: 1;
+	     background-size: cover;
+	     background-position: center; 
+}
