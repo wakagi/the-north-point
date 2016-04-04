@@ -63,6 +63,8 @@ div#text{
 }
 
 .extra {
+  font-size: 17px;
+  font-family: "slim-joe";
   font-style: italic;
 }
 
