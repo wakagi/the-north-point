@@ -56,12 +56,15 @@ div#text{
     background: -moz-linear-gradient(bottom, rgba(255,221,209,209), rgba(255,250,248,209));*/
 }
 
-p {
+.describe {
 	color: #000000;
 	font-family: "slim-joe";
 	font-size: 17px;
 }
 
+.extra {
+  font-style: italic;
+}
 
 #wrapper {
   padding-left: 250px;
