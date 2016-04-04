@@ -23,8 +23,6 @@ html{
 }
 
 .main-image {
-	background-image: url('main-page-pic/DSC_9445.jpg') center center no-repeat;
-	background-size:cover;
 	padding-top: 45px;
 	display:block;
     border: solid;
