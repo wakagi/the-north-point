@@ -114,7 +114,6 @@ p {
 }
 
 
-
 .sidebar-nav > .sidebar-brand {
   height: 65px;
   line-height: 60px;
@@ -131,7 +130,6 @@ p {
 }
 
 
-
 .content-header {
   height: 65px;
   line-height: 65px;
@@ -144,6 +142,7 @@ p {
   display: inline-block;
   font-family: "big-john";
   color: #0128c5;
+  font-size: 50px;
 }
 
 #menu-toggle {
