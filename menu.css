@@ -152,8 +152,13 @@ div#text{
 
 .sidebar-nav > .sidebar-brand a:hover {
   background-color: #0128c5;
-
 }
+
+.sidebar-nav > .sidebar-red a:hover {
+  background-color: #eb4a59;
+}
+
+
 
 .content-header {
   height: 65px;
