@@ -76,7 +76,10 @@ p {
   width: 100%;
 }
 
-
+.sidebar-brand {
+  font-family: "slim-joe";
+  font-size: 15px;
+}
 
 .sidebar-nav {
   position: absolute;
@@ -96,6 +99,8 @@ p {
   color: #eb4a59;
   display: block;
   padding-left: 60px;
+  font-family: "slim-joe";
+  font-size: 20px;
 }
 
 .sidebar-nav li a span:before {
@@ -110,7 +115,7 @@ p {
 .sidebar-nav li a:hover,
 .sidebar-nav li.active {
   color: #ffffff;
-  background: rgb(235,74,89);
+  background: #ff3366;
 }
 
 
@@ -131,8 +136,8 @@ p {
 
 
 .content-header {
-  height: 65px;
-  line-height: 65px;
+  height: 80px;
+  line-height: 80px;
 }
 
 .content-header h1 {
@@ -186,6 +191,7 @@ p {
   padding: 10px;
 }
 
+<<<<<<< HEAD
 .menu-image {
        display:block;
        border: solid;
@@ -198,6 +204,8 @@ p {
       -webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
       -webkit-backface-visibility: hidden; /* Fix for transition flickering */
 }
+=======
+>>>>>>> origin/gh-pages
 
 .menu-image:hover{
     filter: none;
