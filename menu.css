@@ -126,14 +126,14 @@ div#text{
 .sidebar-nav li a span:before {
   position: absolute;
   left: 0;
-  color: #0128c5;
+  font-color: #0128c5;
   text-align: center;
   width: 20px;
   line-height: 18px;
 }
 
-.sidebar-nav li a:hover,
-.sidebar-nav li.active {
+.sidebar-nav li a:hover, 
+.sidebar-nav li.active  {
   color: #ffffff;
   background-color: #eb4a59;
 }
@@ -150,8 +150,8 @@ div#text{
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-  color: #0128c5;
-  background: none;
+  background-color: #0128c5;
+
 }
 
 
@@ -207,8 +207,7 @@ div#text{
   display: inline-block;
 }
 
-.inset {
-  padding: 10px;
-}
+
+.
 
 
