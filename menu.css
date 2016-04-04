@@ -121,6 +121,7 @@ div#text{
   padding-left: 60px;
   font-family: "slim-joe";
   font-size: 18px;
+  font-weight: bold;
 }
 
 .sidebar-nav li a span:before {
