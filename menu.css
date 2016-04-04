@@ -134,8 +134,7 @@ div#text{
 
 .sidebar-nav li a:hover, 
 .sidebar-nav li.active  {
-  color: #ffffff;
-  background-color: #eb4a59;
+    color: #ffffff;
 }
 
 
@@ -153,7 +152,6 @@ div#text{
   background-color: #0128c5;
 
 }
-
 
 .content-header {
   height: 65px;
