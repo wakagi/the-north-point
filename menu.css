@@ -13,6 +13,10 @@
 	background: transparent;
 }
 
+#parent {
+  font-size:0;
+}
+
 .main-image {
 	padding-top: 45px;
 }
