@@ -17,10 +17,6 @@
   font-family:"big-john";
 }
 
-#parent {
-  display: flex;
-}
-
 .main-image {
 	padding-top: 45px;
 }
@@ -48,6 +44,7 @@ div#text{
 	border-width: 1;*/
 	text-align: center;
 	padding-top: 45px;
+  display:flex;
 
   /*background-color: ivory;
   background: linear-gradient(bottom, rgba(255,255,240,1), rgba(248,248,247,1));
@@ -58,13 +55,6 @@ div#text{
     background: linear-gradient(bottom, rgba(255,221,209,209), rgba(255,250,248,209));
     background: -webkit-linear-gradient(bottom, rgba(255,221,209,209), rgba(255,250,248,209));
     background: -moz-linear-gradient(bottom, rgba(255,221,209,209), rgba(255,250,248,209));*/
-}
-.col-md-12 well{
-  margin-top:0;
-  margin-bottom:0;
-}
-
-h3{
 }
 
 p {
