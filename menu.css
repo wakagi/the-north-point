@@ -136,6 +136,7 @@ div#text{
 .sidebar-nav li a:hover, 
 .sidebar-nav li.active  {
     color: #ffffff;
+    background: #eb4a59;
 }
 
 
@@ -207,6 +208,5 @@ div#text{
 }
 
 
-.
 
 
