@@ -18,7 +18,7 @@
 }
 
 #parent {
-  font-size:0;
+  display: flex;
 }
 
 .main-image {
