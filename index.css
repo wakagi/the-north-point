@@ -14,7 +14,9 @@ html{
 	font-family: sans-serif;
 }
 
-
+#main-menu {
+  font-family:"big-john";
+}
 
 #home {
 	background; #251f21
