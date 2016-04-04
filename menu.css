@@ -59,7 +59,10 @@ div#text{
     background: -webkit-linear-gradient(bottom, rgba(255,221,209,209), rgba(255,250,248,209));
     background: -moz-linear-gradient(bottom, rgba(255,221,209,209), rgba(255,250,248,209));*/
 }
-
+.col-md-12 well{
+  margin-top:0;
+  margin-bottom:0;
+}
 
 h3{
 }
