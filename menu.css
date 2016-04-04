@@ -76,10 +76,6 @@ p {
   width: 100%;
 }
 
-.sidebar-brand {
-  font-family: "slim-joe";
-  font-size: 15px;
-}
 
 .sidebar-nav {
   position: absolute;
@@ -100,7 +96,7 @@ p {
   display: block;
   padding-left: 60px;
   font-family: "slim-joe";
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .sidebar-nav li a span:before {
@@ -136,8 +132,8 @@ p {
 
 
 .content-header {
-  height: 80px;
-  line-height: 80px;
+  height: 65px;
+  line-height: 65px;
 }
 
 .content-header h1 {
@@ -189,27 +185,6 @@ p {
 
 .inset {
   padding: 10px;
-}
-
-<<<<<<< HEAD
-.menu-image {
-       display:block;
-       border: solid;
-       border-width: 1;
-       background-size: cover;
-       background-position: center; 
-       filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+, IE10 */
-       filter: gray; /* IE6-9 */
-      -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
-      -webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
-      -webkit-backface-visibility: hidden; /* Fix for transition flickering */
-}
-=======
->>>>>>> origin/gh-pages
-
-.menu-image:hover{
-    filter: none;
-    -webkit-filter: grayscale(0%);
 }
 
 
