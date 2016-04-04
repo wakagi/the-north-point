@@ -110,7 +110,7 @@ p {
 .sidebar-nav li a:hover,
 .sidebar-nav li.active {
   color: #ffffff;
-  background: #0128c5;
+  background: rgb(235,74,89);
 }
 
 
