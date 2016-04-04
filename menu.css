@@ -13,6 +13,10 @@
 	background: transparent;
 }
 
+#main-menu {
+  font-family:"big-john";
+}
+
 #parent {
   font-size:0;
 }
