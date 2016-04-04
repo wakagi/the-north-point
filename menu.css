@@ -76,7 +76,9 @@ p {
   width: 100%;
 }
 
-
+.sidebar-brand {
+  font-family: "slim-joe";
+}
 
 .sidebar-nav {
   position: absolute;
@@ -186,5 +188,4 @@ p {
   padding: 10px;
 }
 
-}
 
