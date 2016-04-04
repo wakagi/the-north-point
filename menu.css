@@ -37,7 +37,7 @@ div#text{
 
 h3{
 	color: #eb4a59;
-	font-family: "big-john";
+	font-family: "Century Gothic";
 }
 
 p {
@@ -56,7 +56,7 @@ p {
   margin-left: -250px;
   left: 250px;
   width: 250px;
-  background: #000;
+  background: #fffaf0;
   position: fixed;
   height: 100%;
   overflow-y: auto;
