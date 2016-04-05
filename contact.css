@@ -90,21 +90,7 @@ div#map {
 
 }	
 
-#fb{
-		 width:500px; 
-		 display:block;
-	     border: solid;
-	     border-width: 1; 
-	     position: relative;
-	     margin: 0 auto 0 auto;
 
-}
-
-.fb-like{
-	position:absolute;
-	width:400px;
-	padding:20px;
-}
 
 .navbar-header {
 	background: transparent;
@@ -116,11 +102,8 @@ div#map {
 }
 
 div#facebook {
-
-padding-left: 550px;
-padding-bottom: 50;
-margin-bottom: 100px;
-border: 0;
+	display:block;
+	margin: -10px auto 50px auto;
 }
-	
+ 
 
