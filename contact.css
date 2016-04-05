@@ -13,22 +13,53 @@
 	font-family:"big-john";
 }
 
-div#text {text-align: center;
+div#text {text-align: right;
 			display:block;
 			padding:60px;
 			font-family:"slim-joe";
 }
 
+.responsive td{
+	text-align: center;
+
+}
+
+.seperate{
+	text-align: center;
+}
+
+}
+
 .h1{
 	color:#0128c5;
+	text-align: right;
 }
 
 .h2 {
 	color:#eb4a59;
+	text-align: right;
 }
 
 .p {
 	font-size:20px;
+	text-align: right;
+
+}
+
+.b {
+ 	font-size:20px;
+	text-align: center;
+
+}
+
+
+div.font {
+	font-style: bold
+}
+
+div.container {
+	text align: center;
+
 }
 
 .main-image {
@@ -48,11 +79,15 @@ div#text {text-align: center;
      -webkit-filter: grayscale(0%);
 }
 
+
+
+
 div#map {
 		display:block;
 	     border: solid;
 	     border-width: 1; 
 		 margin: 50px auto 50px auto;
+
 }	
 
 #fb{
@@ -79,3 +114,13 @@ div#map {
 	width: 500px;
 	height: 400px;
 }
+
+div#facebook {
+
+padding-left: 550px;
+padding-bottom: 50;
+margin-bottom: 100px;
+border: 0;
+}
+	
+
