@@ -34,7 +34,7 @@ html{
      -webkit-backface-visibility: hidden; /* Fix for transition flickering */
 }
 
-.menu-image:hover{
+.main-image:hover{
       filter: none;
      -webkit-filter: grayscale(0%);
 }
